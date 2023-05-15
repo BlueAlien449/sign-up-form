@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(/img/Norse-Bold.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    appearance: none;
+    text-decoration: none;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100vh;
+}
+
+.header{
+    background-image: url(../img/himmel-s--LJkTZnVOrY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

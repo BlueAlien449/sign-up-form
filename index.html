@@ -6,48 +6,46 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <section class="image">
-        <div class="title">
-            <img src="img/odin-lined.png" alt="odin-logo">
-            Odin
-        </div>
-    </section>
-    <div class="text">
-        <p>
-            This is not a real online service! You know you need something
-            like this in your life to help you realize your deepest dreams.
-            Sign up <em>now</em> to get started.
-        </p>
-        <p>
-            You know you want to.
-        </p>
-    </div>
-    <form>
-        <h1>Let's do this!</h1>
-        <label for="first-name">First Name</label>
-        <input type="text" name="first-name" id="first-name" required>
-
-        <label for="last-name">Last Name</label>
-        <input type="text" name="last-name" id="last-name" required>
-
-        <label for="email">E-mail</label>
-        <input type="email" name="email" id="email" required>
-
-        <label for="phone-number">Phone Number</label>
-        <input type="tel" name="phone-number" id="phone-number" required>
-
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password" required>
-
-        <label for="password-confirm">Confirm password</label>
-        <input type="password" name="password-confirm" id="password-confirm" required>  
-
-        <section class="button">
-            <button class="submitButton" type="submit">Create account</button>
-            <p>Already have an account? <span><a href="#">Log in</a></span></p>
+    <container class="main">
+        <section class="header">
+            <div class="title">
+                <img src="img/odin-lined.png" alt="odin-logo">
+                Odin
+            </div>
         </section>
+        <section class="content">
+            <div class="text">
+                <p>
+                    This is not a real online service! You know you need something
+                    like this in your life to help you realize your deepest dreams.
+                    Sign up <em>now</em> to get started.
+                </p>
+                <p>
+                    You know you want to.
+                </p>
+            </div>
+            <form>
+                <h1>Let's do this!</h1>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" required>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" required>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required>
+                <label for="phone-number">Phone Number</label>
+                <input type="tel" name="phone-number" id="phone-number" required>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+                <label for="password-confirm">Confirm password</label>
+                <input type="password" name="password-confirm" id="password-confirm" required>
+                <section class="button">
+                    <button class="submitButton" type="submit">Create account</button>
+                    <p>Already have an account? <span><a href="#">Log in</a></span></p>
+                </section>
         
-    </form>
+            </form>
+        </section>
+    </container>
 </body>
 <script src="javascript/main.js"></script>
 </html>
