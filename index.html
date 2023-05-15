@@ -6,7 +6,24 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <section class="image">
+        <div class="title">
+            <img src="img/odin-lined.png" alt="odin-logo">
+            Odin
+        </div>
+    </section>
+    <div class="text">
+        <p>
+            This is not a real online service! You know you need something
+            like this in your life to help you realize your deepest dreams.
+            Sign up <em>now</em> to get started.
+        </p>
+        <p>
+            You know you want to.
+        </p>
+    </div>
     <form>
+        <h1>Let's do this!</h1>
         <label for="first-name">First Name</label>
         <input type="text" name="first-name" id="first-name" required>
 
@@ -25,7 +42,12 @@
         <label for="password-confirm">Confirm password</label>
         <input type="password" name="password-confirm" id="password-confirm" required>  
 
-        <button type="submit">Create account</button>
+        <section class="button">
+            <button class="submitButton" type="submit">Create account</button>
+            <p>Already have an account? <span><a href="#">Log in</a></span></p>
+        </section>
+        
     </form>
 </body>
+<script src="javascript/main.js"></script>
 </html>
