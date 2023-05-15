@@ -24,3 +24,18 @@
     background-position: center;
     background-size: cover;
 }
+
+.title{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    font-family: "Norse-Bold";
+    font-size: 100px;
+    justify-content: center;
+    padding: 15px;
+    margin: 90px 0;
+}
+
+.title > img{
+    width: 80px;
+}
