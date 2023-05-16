@@ -120,3 +120,9 @@ input:focus{
 .error{
     border: 1px solid red;
 }
+
+.pass::after{
+    content: "* Passwords do not match";
+    color: red;
+    display: inline-block;
+}
